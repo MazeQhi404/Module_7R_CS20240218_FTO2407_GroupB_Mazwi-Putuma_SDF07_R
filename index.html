@@ -3,13 +3,144 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevJane Portfolio Website</title>
+        <title>Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+        <link rel="stylesheet" href="styles.css">
 
 
     </head>
     <body>
+        <header>
+             <button class="nav-toggle" aria-label="toggle navigation"> 
+                <span class="hamburger"></span>
+             </button>
+             <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#services" class="nav_link">My Services</a></li>
+                    <li class="nav_item"><a href="#aboutme" class="nav_link">About me</a></li>
+                    <li class="nav_item"><a href="#mywork" class="nav_link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+          <!-- Introduction -->
+          <section class="intro" id="home">
+            <h1 class="section_title section_title-intro">
+                Hi, I am <strong>Mazwi Putuma</strong>
+            </h1>
+            <p class="section_subtitle section_subtitle-intro">Digital Design </p>
+            <img src="images/F534ABDB-F713-4EC8-9221-76981B148950.png" alt="a picture of Mazwi Putuma" class="intro_img">
+        </section>
         
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section_title section_title-services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3> Custom Paintings</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3> Digital Designs</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3> Video Editing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+                    
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+         <!-- About me -->
+         <section class="about-me" id="aboutme">
+            <h2 class="section_title section_title-about">Who I am</h2>
+            <p class="section_subtitle section_subtitle-about"> Digital Design artist based in Cape Town</p>
+            
+            <div class="about-me_body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            
+            <img src="images/A501C2B4-71F7-4325-A355-A77830163CC2_1_105_c.jpeg" alt="Mazwi photographed in front of a pink wall" class="about-me_img">
+         </section>
+         
+        <!-- My Work -->
+        <section class="my-work" id="mywork">
+            <h2 class="section_title">My work</h2>
+            <p class="section_subtitle section_subtitle-work" > A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio_item">
+                    <img src="images/3C9112E7-5E2A-424E-BF5E-DEF7180D92C7_1_105_c.jpeg" alt="" class="portfolio_img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio_item">
+                    <img src="images/3E85C48C-0BB5-4D57-8A59-28BE9C7F03D1.jpeg" alt="" class="portfolio_img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio_item">
+                    <img src="images/8F47298D-F056-4A19-9459-5732CECA1A0C_1_105_c.jpeg" alt="" class="portfolio_img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio_item">
+                    <img src="images/C3F1204E-4BC3-4874-8D7D-3C5C98481520_1_105_c.jpeg" alt="" class="portfolio_img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio_item">
+                    <img src="images/DEDE3E1D-0368-496C-A0CB-02CD77A88B9A_1_105_c.jpeg" alt="" class="portfolio_img">
+                </a>
+                
+                
+                <!-- Portfolio item 06 -->
+                <a href="#" class="portfolio_item">
+                    <img src="images/3E85C48C-0BB5-4D57-8A59-28BE9C7F03D1.jpeg" alt="" class="portfolio_img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="#" class="portfolio_item">
+                    <img src="images/8F47298D-F056-4A19-9459-5732CECA1A0C_1_105_c.jpeg" alt="" class="portfolio_img">
+                </a>
+                
+                <!-- Portfolio item 8-->
+                <a href="#" class="portfolio_item">
+                    <img src="images/C3F1204E-4BC3-4874-8D7D-3C5C98481520_1_105_c.jpeg" alt="" class="portfolio_img">
+                </a>
+            </div>
+        </section>    
+         <!-- Footer -->
+         <footer class="footer">
+            <a href="mailto:maze.putuma@gmail.com" class="footer_link">maze.putuma@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list_item">
+                    <a class="social-list_link" href="https://codepen.io/your-work">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list_item">
+                    <a class="social-list_link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="index.js"></script>
     </body>
 </html>
