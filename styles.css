@@ -387,7 +387,7 @@ h3 { font-size: var(--fs-h3) }
 .portfolio_item {
     background: var(--clr-accent);
     overflow: hidden;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .portfolio_img {
