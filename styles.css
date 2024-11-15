@@ -381,7 +381,7 @@ h3 { font-size: var(--fs-h3) }
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 10px;
 }
 
 .portfolio_item {
